@@ -1,3 +1,13 @@
+# Modifications
+
+Renamed the repository as BASIC (Basic Arduino String Input Calculator) cuz that is what its intended for.
+
+Borked the smart implementation based on regex and vector by using buffers of character and double. I also had to implement my own push, pop, length, back, isempty, and empty functions. I had to do that since Arduino doesn't support regex and vectors natively. 
+
+Yes I'm aware that there are pre-built regex and vector libraries. But under space constraints, having another library to use the original code doesn't help. That's also why I couldn't use the far more capable [tinyexpr](https://github.com/codeplea/tinyexpr.git).
+
+Will be updating this repo as my code golfing ability improves.
+
 # Calculator 🔰
 
 A simple calculator that supports BODMAS, nested parentheses, unary operators, variable precision, and more. It uses the [Shunting Yard Algorithm](https://en.wikipedia.org/wiki/Shunting-yard_algorithm) to convert an input infix expression to postfix expression before evaluating it.
