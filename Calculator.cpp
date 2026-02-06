@@ -235,15 +235,9 @@ String to_postfix(String exp)
     exp = modify(exp);
     String ans = "";
     String operand = "";
-    char prevchar = '*';
 
     for (long long i = 0; i < exp.length(); i++)
     {
-
-        if (i > 0)
-        {
-            prevchar = exp[i - 1];
-        }
         char c = exp[i];
 
         if (isdigit(c) != 0 || c == '.')

@@ -2,5 +2,5 @@
     "files.associations": {
         "xstring": "cpp"
     },
-    "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/g++.exe"
+    "C_Cpp.default.compilerPath": "c:\\Users\\abhij\\.platformio\\packages\\toolchain-xtensa-esp32\\bin\\xtensa-esp32-elf-gcc.exe"
 }
